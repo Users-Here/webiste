@@ -1,0 +1,114 @@
+/* Add this CSS to your existing stylesheet */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+/* Featured Product Styles */
+.featured-product {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-images {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.additional-images img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    flex: 1;
+    max-width: 600px;
+}
+
+.product-info h2 {
+    color: #333;
+}
+
+.description {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #d9534f;
+}
+
+.add-to-cart-btn {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #4cae4c;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 5px;
+}
+/* ... (previous CSS code) */
+
+/* Featured Product Styles */
+.featured-product {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-images {
+    max-width: 100%;
+}
+
+.product-info {
+    max-width: 100%;
+}
+
+/* ... (remaining CSS code) */

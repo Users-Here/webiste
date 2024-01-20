@@ -1,0 +1,125 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Default text color */
+}
+
+/* Header Styles */
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Rich Text Section Styles */
+.rich-text {
+    background-color: #bf6b5a; /* Dark grey background */
+    color: #0f0e05; /* Audacious yellow text color */
+    padding: 40px;
+    text-align: center;
+}
+
+.rich-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* ... (Previous styles remain unchanged) */
+
+/* Featured Products Section Styles */
+.featured-products {
+    background-color: #bf6b5a; /* Dark grey background */
+    color: #0a0902; /* Audacious yellow text color */
+    padding: 40px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Product Cards Grid Styles */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    width: 22%; /* Adjust the width to create four columns */
+    margin: 1%; /* Add margin to create space between cards */
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.product-card .price {
+    font-size: 20px;
+    margin: 10px;
+    color: #e44d26; /* Accent color for price */
+}
+
+.product-card button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e44d26;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #d4391f;
+}
+
